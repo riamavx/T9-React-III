@@ -1,0 +1,16 @@
+import React from "react";
+import FotoPessoa from "../Imagem/FotoPessoa"
+import DadosPessoa from "../DadosPessoa/DadosPessoa"
+
+
+const InformacoesGerais = (props) => {
+    return (
+      <div className="informacaoPessoa">
+        <FotoPessoa pessoa={props.pessoa} />
+        <DadosPessoa pessoa={props.pessoa} />
+      </div>
+    )
+  }
+
+
+  export default InformacoesGerais;
