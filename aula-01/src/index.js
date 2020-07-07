@@ -47,22 +47,24 @@ function Comentarios(props) {
   )
 }
 
+
 const comentario = {
   data: new Date(),
+  comentario: 'Esse é o comentário',
   autora: {
-    nome: "Maria",
-    fotoUrl:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fphotos%2F1141277-goose-on-fire-fire-duck&psig=AOvVaw0cBjmI_u3RyLyVPjK_28RG&ust=1594132893300000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjFtfztuOoCFQAAAAAdAAAAABAD",
-    fotoNome: "perfil"
+    nome: 'Jéssica',
+    hobbie: 'Patinar',
+    fotoUrl: 'https://placekitten.com/g/64/64',
+    fotoNome: 'Perfil'
   }
-
 }
-
 ReactDOM.render(
   <React.StrictMode>
-    <comentario 
-    data ={comentario.data}
-    comentario={comentario.comentario}
-    autora = {comentario.autora}
+    <Comentarios
+      data={comentario.data}
+      comentario={comentario.comentario}
+      autora={comentario.autora}
+
     />
   </React.StrictMode>,
   document.getElementById('root')
