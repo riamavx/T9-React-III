@@ -17,10 +17,10 @@ class Biography extends Component{
         const {biography} = this.state;
 
         return(
-            <div>
+            <div className="biography_info">
                 <h1>{biography.nome}</h1>
                 <p className="biography_description">{biography.description}</p>
-                <div className="read_more"><a href={biography.url}>Leia Mais </a></div>
+                <a href={biography.url}>Leia Mais </a>
             </div>
         )
     }

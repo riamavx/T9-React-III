@@ -1,0 +1,19 @@
+.biography_info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.biography_info p{
+    color: #1b4332;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.biography_info a{
+    color:#114b5f;
+    font-weight: bold;
+}
